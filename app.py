@@ -20,7 +20,7 @@ async def main():
     Main function to send file to a user in Telegram .
     """
     save_path = sys.argv[1]
-        await send_file_to_telegram_bot(bot_token, chat_id, save_path)
+    await send_file_to_telegram_bot(bot_token, chat_id, save_path)
 
 if __name__ == "__main__":
     asyncio.run(main())

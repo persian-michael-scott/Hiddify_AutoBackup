@@ -20,6 +20,6 @@ else
     echo "Directory not found: $backup_directory"
 fi
 
-latest_backup = "$backup_directory/$latest_file"
+latest_backup="$backup_directory/$latest_file"
 
 python3 /opt/Hiddify_AutoBackup/app.py latest_backup
