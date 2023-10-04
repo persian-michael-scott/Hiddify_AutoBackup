@@ -13,7 +13,7 @@ Upload Hiddify server backup every 3 hour to your private chat with telegram bot
 
 ### Installation : 
 ```
-git clone https://github.com/Rasoul-Khajavi/Hiddify_AutoBackup.git /opt && cd /opt/Hiddify_AutoBackup && ./install.sh
+cd /opt && git clone https://github.com/Rasoul-Khajavi/Hiddify_AutoBackup.git && cd /opt/Hiddify_AutoBackup && ./install.sh
 ```
 at the end of installation you will be prompted to enter Bot Token and chat id. 
 Enjoy!
