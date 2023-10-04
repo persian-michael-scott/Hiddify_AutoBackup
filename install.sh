@@ -45,3 +45,9 @@ echo "Inputs saved to $file_name"
 (crontab -l ; echo "0 */3 * * * /bin/bash $script_path") | crontab -
 
 echo "Cron job added to run $script_path every 3 hours."
+
+echo "Testing Backup Upload. Make sure you have Started conversation with bot in Telegram"
+
+bash backup_and_upload.sh
+
+echo "You should now see the backup file in telegram . it will be scheduled to send it every 3 hour"

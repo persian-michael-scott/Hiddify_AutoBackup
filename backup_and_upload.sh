@@ -1,3 +1,4 @@
+chmod +x "$0"
 cd /opt/hiddify-config/hiddify-panel
 python3 -m hiddifypanel backup
 
