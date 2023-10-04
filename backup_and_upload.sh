@@ -22,4 +22,5 @@ fi
 
 latest_backup="$backup_directory/$latest_file"
 
-python3 /opt/Hiddify_AutoBackup/app.py latest_backup
+
+python3 /opt/Hiddify_AutoBackup/app.py "$latest_backup"
