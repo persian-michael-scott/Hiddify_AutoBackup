@@ -1,8 +1,8 @@
 chmod +x "$0"
-cd /opt/hiddify-config/hiddify-panel
+cd /opt/hiddify-manager/hiddify-panel
 python3 -m hiddifypanel backup
 
-backup_directory="/opt/hiddify-config/hiddify-panel/backup"
+backup_directory="/opt/hiddify-manager/hiddify-panel/backup"
 
 # Check if the directory exists
 if [ -d "$backup_directory" ]; then
